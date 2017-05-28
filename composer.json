@@ -1,0 +1,23 @@
+{
+    "name": "msf/store",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maksym",
+            "email": "ms.mikro.1@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"app\\": ""}
+    },
+    "minimum-stability": "dev",
+    "require": {
+      "msf/framework": "dev-master"
+    },
+    "repositories": [
+    {
+        "type": "vcs",
+        "url":  "git@github.com:maxwww/frame.git"
+    }
+]
+}

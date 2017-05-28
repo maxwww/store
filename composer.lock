@@ -1,0 +1,55 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9e48c6a5b3a2d4bc6adeefeb3fd0e56b",
+    "packages": [
+        {
+            "name": "msf/framework",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/maxwww/frame.git",
+                "reference": "4d352d45201f751238f19276c62bb9b246f99fc0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/maxwww/frame/zipball/4d352d45201f751238f19276c62bb9b246f99fc0",
+                "reference": "4d352d45201f751238f19276c62bb9b246f99fc0",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "msf\\": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Maksym",
+                    "email": "ms.mikro.1@gmail.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/maxwww/frame/tree/master",
+                "issues": "https://github.com/maxwww/frame/issues"
+            },
+            "time": "2017-05-28 14:41:58"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "msf/framework": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
